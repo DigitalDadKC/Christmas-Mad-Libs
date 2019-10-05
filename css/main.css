@@ -1,0 +1,103 @@
+* {
+  margin: auto;
+  max-width: 500px;;
+  padding: 0;
+  font-weight: normal;
+  text-decoration: none;
+  font-family: "Mountains of Christmas";
+  text-align: center;
+  color: #FFCC00;
+}
+
+body,
+html {
+  height: 0%;
+  background-color: #006699;
+}
+
+#layout {
+  background-color: #339900;
+  border: 5px solid #FFCC00;
+  width: 100%;
+  padding: 20px;
+ }
+
+label {
+   display: inline-block;
+   width: 100px;
+   text-align: right;
+   margin-right: 15px;
+   font-size: 20px;
+ }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: white;
+  -webkit-box-shadow: 0 0 0px 1000px #FF0000 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.container select, input {
+  height: 50px;
+  background-color: #FF0000;
+  width: 150px;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  border-radius: 20px;
+  text-align-last: center;
+}
+
+option {
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  color: white;
+}
+
+.submission {
+  margin: 50px 0 50px 0;
+  display: inline;
+  text-align: right;
+}
+
+@media screen and (min-width: 960px) {
+  * {
+    max-width: 700px;
+  }
+
+  body, html {
+    height: 0%;
+    margin-top: 30px;
+  }
+
+  #layout {
+     border-radius: 25px;
+   }
+
+   label {
+     font-size: 25px;
+   }
+
+  .container select, .container input {
+    font-size: 25px;
+    width: 250px;
+    height: 60px;
+    display: inline;
+  }
+
+  option {
+    font-size: 25px;
+  }
+
+  .submission input {
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,59 @@
+* {
+  margin: auto;
+  max-width: 800px;
+  padding: 0;
+  font-weight: normal;
+  text-decoration: none;
+  font-family: "Mountains of Christmas";
+  color: #FFCC00;
+}
+
+body,
+html {
+  height: 0%;
+  background-color: #006699;
+}
+
+p {
+  font-size: 20px;
+}
+
+#layout {
+  background-color: #339900;
+  border: 5px solid #FFCC00;
+  border-radius: 25px;
+  width: 100%;
+  padding: 30px 30px 0 30px;
+  margin-top: 30px;
+  float: right;
+}
+
+.container h5, h1 {
+  color: #FFCC00;
+}
+
+span {
+  color: white;
+}
+
+.santa {
+  position: fixed;
+  right: 20px;
+  padding: 20px;
+}
+
+@media screen and (min-width: 960px) {
+  p {
+    font-size: 35px;
+  }
+
+  span {
+    font-size: 40px;
+  }
+
+  .santa {
+    padding: 20px;
+    margin: auto;
+    position: static;
+    float: right;
+  }

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dear Santa...</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Mountains+of+Christmas" />
+</head>
+
+<body>
+	<form action="madlibsresults.php" method="get" enctype="multipart/form-data">
+		<div class="container" id="layout">
+			<header>
+				<h1>Christmas Mad Libs!</h1>
+			</header>
+			<hr>
+			<div class="row">
+				<div class="col-xs-6 offset-xs-3">
+					<label for="name">Name</label>
+					<input type="text" name="name"><br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 offset-xs-3">
+					<label for="number">Number</label>
+					<input type="number" name="age"><br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 offset-xs-3">
+					<label for="month">Month</label>
+					<select name="month"><br>
+						<optgroup><br>
+							<option>January</option>
+							<option>February</option>
+							<option>March</option>
+							<option>April</option>
+							<option>May</option>
+							<option>June</option>
+							<option>July</option>
+							<option>August</option>
+							<option>September</option>
+							<option>October</option>
+							<option>November</option>
+							<option>December</option>
+						</optgroup>
+					</select><br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 offset-xs-3">
+					<label for="sibling">Number</label>
+					<input type="number" name="sibling"><br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 offset-xs-3">
+					<label for="color">Color</label>
+					<select name="color"><br>
+						<option>Pink</option>
+						<option>Red</option>
+						<option>Orange</option>
+						<option>Yellow</option>
+						<option>Green</option>
+						<option>Blue</option>
+						<option>Violet</option>
+						<option>Black</option>
+						<option>Brown</option>
+					</select><br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 offset-xs-3">
+					<label for="location">Location</label>
+					<input type="text" name="location"><br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 offset-xs-3">
+					<label for="animal">Animal</label>
+					<input type="text" name="animal"><br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 offset-xs-3">
+					<label for="verb">Verb</label>
+					<input type="text" name="verb"><br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 offset-xs-3">
+					<label for="toy">Object</label>
+					<input type="text" name="toy"><br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 offset-xs-3">
+					<label for="celebrity">Celebrity</label>
+					<input type="text" name="celebrity"><br>
+				</div>
+			</div>
+			<div class="row submission">
+				<div class="col-xs-12">
+					<input type="reset">
+					<input type="submit">
+				</div>
+			</div>
+	</form>
+</body>
+
+<script src="js/snowstorm.js"></script>
+
+</html>
