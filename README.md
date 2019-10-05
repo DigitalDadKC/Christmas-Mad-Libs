@@ -2,4 +2,4 @@
 My first shot at PHP using GET method
 
 ## live link
-https://digitaldadkc.github.io/ChristmasMadLibs/
+https://digitaldadkc.github.io/Christmas-Mad-Libs/
