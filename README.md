@@ -1,5 +1,5 @@
 # Christmas-Mad-Libs
 My first shot at PHP using GET method
 
-## live link
-https://digitaldadkc.github.io/Christmas-Mad-Libs/
+<h4>Form Entry Screen</h4>
+<img src="/Pics/madlibsinput.png">
